@@ -15,3 +15,8 @@ This repository was created to showcase my analytical and technical skills (Exce
 ## Portfolio Projects
 ## Study Projects
 ## Certificates
+## Contacts
+* Linkedin: https://www.linkedin.com/in/pavelliaoshka
+* Mobile: 0848883817
+* Email: pvmkhoi14042003@gmail.com
+* Telegram: @minhkhoi1404
