@@ -5,3 +5,9 @@ About Me  Hi! I’m Khoi Pham, passionate about Data Science &amp; Business Anal
 You can see more infomation in my **CV**
 
 This repository was created to showcase my analytical and technical skills (Excel, Python, SQL, Power BI, PowerPoint, and others).
+## Contents
+* [About me](#about-me)
+* [Portfolio Projects](#portfolio-projects)
+* [Study projects](#study-projects)
+* [Certificates](#certificates)
+* [Contacts](#contacts)
