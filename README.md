@@ -15,6 +15,11 @@ This repository was created to showcase my analytical and technical skills (Exce
 ## Portfolio Projects
 ## Study Projects
 ## Certificates
+* [MOS - Microsoft Office Specialist](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/Certification/MOS) - Microsoft - 2023
+* [Google Data Analytics Certificate](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/blob/main/Certification/Google%20Data%20Analytics.pdf) - Coursera - Google, 2024
+* [Google Advanced Data Analytics](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/blob/main/Certification/Google%20Advanced%20Data%20Analytics.pdf) - Coursera - Google, 2024
+* [Data Visualization and Communication with Tableau](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/blob/main/Certification/Data%20Visualization%20and%20Communication%20with%20Tableau.pdf) - Coursera - Duke University, 2024
+* [Mastering Data Analysis in Excel](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/blob/main/Certification/Mastering%20Data%20Analysis%20in%20Excel.pdf)  - Coursera - Duke University, 2024
 ## Contacts
 * Linkedin: https://www.linkedin.com/in/pavelliaoshka
 * Mobile: 0848883817
