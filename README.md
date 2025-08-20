@@ -11,3 +11,7 @@ This repository was created to showcase my analytical and technical skills (Exce
 * [Study projects](#study-projects)
 * [Certificates](#certificates)
 * [Contacts](#contacts)
+
+## Portfolio Projects
+## Study Projects
+## Certificates
