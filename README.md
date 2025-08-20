@@ -21,7 +21,7 @@ This repository was created to showcase my analytical and technical skills (Exce
 * [Data Visualization and Communication with Tableau](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/blob/main/Certification/Data%20Visualization%20and%20Communication%20with%20Tableau.pdf) - Coursera - Duke University, 2024
 * [Mastering Data Analysis in Excel](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/blob/main/Certification/Mastering%20Data%20Analysis%20in%20Excel.pdf)  - Coursera - Duke University, 2024
 ## Contacts
-* Linkedin: https://www.linkedin.com/in/pavelliaoshka
+* Linkedin: [https://www.linkedin.com/in/pavelliaoshka](https://www.linkedin.com/in/khoi-pham-vo-minh/)
 * Mobile: 0848883817
 * Email: pvmkhoi14042003@gmail.com
 * Telegram: @minhkhoi1404
