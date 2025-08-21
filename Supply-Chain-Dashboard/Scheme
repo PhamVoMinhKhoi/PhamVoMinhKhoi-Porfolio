@@ -1,0 +1,6 @@
+                    dim_customer
+                          │
+                    dim_product
+                          │
+dim_region ──────────── fact_orders ─────────── dim_date
+
