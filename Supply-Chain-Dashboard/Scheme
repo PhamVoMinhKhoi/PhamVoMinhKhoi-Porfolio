@@ -4,3 +4,12 @@
                           │
 dim_region ──────────── fact_orders ─────────── dim_date
 
+fact_orders: chứa dữ liệu giao dịch (doanh thu, lợi nhuận, số lượng, trạng thái giao hàng).
+
+dim_customer: chứa thông tin khách hàng (id, tên, segment, location).
+
+dim_product: chứa thông tin sản phẩm (id, tên, category, price).
+
+dim_region: chứa thông tin địa lý (region, state, country, lat/long).
+
+dim_date: chuẩn hóa ngày (order_date, ship_date).
