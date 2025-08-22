@@ -1,0 +1,12 @@
+CREATE OR REPLACE VIEW `my-project-sc-469703.project1.v_sales_monthly` AS
+SELECT
+  order_month,
+  COUNT(DISTINCT order_id)                                         AS orders,
+  SUM(sales)                                                       AS revenue,
+  SUM(profit)                                                      AS profit,
+  SAFE_DIVIDE(SUM(profit), NULLIF(SUM(sales),0))                   AS profit_margin,
+  AVG(lateness_days)                                               AS avg_lateness_days,
+  AVG(CAST(late_delivery_risk AS FLOAT64))                         AS late_rate
+FROM `my-project-sc-469703.project1.v_spc_features`
+GROUP BY order_month
+ORDER BY order_month;
