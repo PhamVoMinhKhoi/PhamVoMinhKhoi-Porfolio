@@ -14,6 +14,7 @@ This repository was created to showcase my analytical and technical skills (Exce
 
 ## Portfolio Projects
 * [Supply-Chain-Dashboard](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/Supply-Chain-Dashboard)
+
 **Description**: The main goal of this project is to analyze a global supply chain dataset (DataCoSupplyChainDataset.csv) containing order, customer, product, and financial data. The project covers the full workflow: data cleaning & EDA in Python, SQL views in BigQuery, interactive dashboards in Looker Studio, and predictive modeling with scikit-learn.
 
 **Code**: Python Modeling Notebook
