@@ -1,0 +1,37 @@
+CREATE OR REPLACE VIEW `my-project-sc-469703.project1.v_discount_margin_bins` AS
+WITH binned AS (
+  SELECT
+    order_id,
+    order_item_id,
+    SAFE_CAST(sales  AS FLOAT64) AS sales,
+    SAFE_CAST(profit AS FLOAT64) AS profit,
+    SAFE_DIVIDE(profit, NULLIF(sales,0)) AS profit_margin,
+    CASE
+      WHEN COALESCE(order_item_discount_rate,0) = 0                 THEN '0'
+      WHEN order_item_discount_rate <= 0.10                         THEN '0–10%'
+      WHEN order_item_discount_rate <= 0.20                         THEN '10–20%'
+      WHEN order_item_discount_rate <= 0.30                         THEN '20–30%'
+      WHEN order_item_discount_rate <= 0.40                         THEN '30–40%'
+      WHEN order_item_discount_rate <= 0.50                         THEN '40–50%'
+      ELSE '>50%'
+    END AS discount_bin
+  FROM `my-project-sc-469703.project1.v_spc_features`
+)
+SELECT
+  discount_bin,
+  COUNT(*)                                          AS n_rows,
+  SUM(sales)                                        AS revenue,
+  SUM(profit)                                       AS profit,
+  SAFE_DIVIDE(SUM(profit), NULLIF(SUM(sales),0))    AS profit_margin
+FROM binned
+GROUP BY discount_bin
+ORDER BY
+  CASE discount_bin
+    WHEN '0' THEN 0
+    WHEN '0–10%' THEN 1
+    WHEN '10–20%' THEN 2
+    WHEN '20–30%' THEN 3
+    WHEN '30–40%' THEN 4
+    WHEN '40–50%' THEN 5
+    ELSE 6
+  END;
