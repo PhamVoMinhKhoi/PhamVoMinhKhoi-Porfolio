@@ -13,6 +13,7 @@ This repository was created to showcase my analytical and technical skills (Exce
 * [Contacts](#contacts)
 
 ## Portfolio Projects
+* [Supply-Chain-Dashboard](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/Supply-Chain-Dashboard) 
 ## Study Projects
 ## Certificates
 * [MOS - Microsoft Office Specialist](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/Certification/MOS) - Microsoft - 2023
