@@ -1,1 +1,13 @@
+amazon-logistics-project/
+├─ README.md
+├─ .gitignore
+├─ requirements.txt
+├─ .env.example
+├─ data/
+│  └─ raw_amazon.csv            # bạn đặt file gốc ở đây (tải từ Kaggle)
+├─ outputs/
+│  └─ clean_amazon.csv          # file sạch sẽ được tạo bởi script
+└─ scripts/
+   ├─ clean_amazon.py           # làm sạch + feature engineering
+   └─ push_to_sheet.py          # đẩy dữ liệu & KPI lên Google Sheets
 
