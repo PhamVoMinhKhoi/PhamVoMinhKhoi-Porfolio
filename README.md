@@ -13,7 +13,7 @@ This repository was created to showcase my analytical and technical skills (Exce
 * [Contacts](#contacts)
 
 ## Portfolio Projects
-### [ETL Logistics Dashboard]
+### [ETL Logistics Dashboard](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/ETL_Logistic)<br>
 
 ### [Supply-Chain-Dashboard](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/Supply-Chain-Dashboard)<br>
 
