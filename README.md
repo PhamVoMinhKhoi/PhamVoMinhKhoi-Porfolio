@@ -15,9 +15,9 @@ This repository was created to showcase my analytical and technical skills (Exce
 ## Portfolio Projects
 ### [ETL Logistics Dashboard](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/ETL_Logistic)<br>
 **Description**: The project’s goal is to build a logistics analytics pipeline from raw CSV datasets (Customer, Employee, Shipment, Payment, Membership, Status). The workflow covers the full ETL cycle: data cleaning and joins in Python, exporting fact & KPI views, pushing transformed data to Google Sheets via Service Account, and building interactive dashboards in Looker Studio for business insights.<br>
-**Code**: Python ETL Scripts (join_and_build_views.py, push_to_sheet.py)<br>
-**Dashboard**: Looker Studio Dashboard (Overview, SLA Monitoring, Membership & Customer Insights)<br>
-**Original dataset**: Custom logistics dataset (Orders, Customers, Shipments, Payments, Memberships)<br>
+**Code**: [Python ETL Scripts (join_and_build_views.py, push_to_sheet.py)](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/ETL_Logistic/script)<br>
+**Dashboard**: [Looker Studio Dashboard (Overview, SLA Monitoring, Membership & Customer Insights)](https://lookerstudio.google.com/reporting/ea209ef8-9b0b-4c58-8d86-0868a1b27f44)<br>
+**Original dataset**: [Custom logistics dataset (Orders, Customers, Shipments, Payments, Memberships)](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/ETL_Logistic/data_raw)<br>
 **Skills**: ETL design, data modeling, data visualization, dashboarding, analytical thinking<br>
 **Hard skills**: Python (Pandas, Pathlib, dotenv), Google Sheets API (gspread, Service Accounts), GitHub, Looker Studio<br>
 **Results**: Delivered a fully automated pipeline (raw CSV → Google Sheets → Dashboard).<br>
