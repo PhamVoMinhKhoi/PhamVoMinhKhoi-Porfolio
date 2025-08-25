@@ -14,6 +14,17 @@ This repository was created to showcase my analytical and technical skills (Exce
 
 ## Portfolio Projects
 ### [ETL Logistics Dashboard](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/ETL_Logistic)<br>
+**Description**: The project’s goal is to build a logistics analytics pipeline from raw CSV datasets (Customer, Employee, Shipment, Payment, Membership, Status). The workflow covers the full ETL cycle: data cleaning and joins in Python, exporting fact & KPI views, pushing transformed data to Google Sheets via Service Account, and building interactive dashboards in Looker Studio for business insights.<br>
+**Code**: Python ETL Scripts (join_and_build_views.py, push_to_sheet.py)<br>
+**Dashboard**: Looker Studio Dashboard (Overview, SLA Monitoring, Membership & Customer Insights)<br>
+**Original dataset**: Custom logistics dataset (Orders, Customers, Shipments, Payments, Memberships)<br>
+**Skills**: ETL design, data modeling, data visualization, dashboarding, analytical thinking<br>
+**Hard skills**: Python (Pandas, Pathlib, dotenv), Google Sheets API (gspread, Service Accounts), GitHub, Looker Studio<br>
+**Results**: Delivered a fully automated pipeline (raw CSV → Google Sheets → Dashboard).<br>
+**Overview Page**: Showed order volume, cancellations, revenue concentration, and delivery performance.<br>
+**SLA Monitoring Page**: Identified severe SLA compliance issues (late vs on-time), weekday delivery imbalances.<br>
+**Membership & Customer Page**: Revealed 90%+ revenue dependency on one membership segment and universal SLA failure across tiers.<br>
+Insights provide actionable recommendations on reducing cancellations, balancing capacity, SLA tiering, and customer diversification.<br>
 
 ### [Supply-Chain-Dashboard](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/Supply-Chain-Dashboard)<br>
 
