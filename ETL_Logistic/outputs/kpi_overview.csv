@@ -1,0 +1,2 @@
+total_orders,delivered_orders,cancelled_orders,ontime_rate,avg_delivery_days,total_revenue
+200,100,100,0.085,104.74,9489109.0
