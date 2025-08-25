@@ -85,4 +85,17 @@ The project aims to:
 - `.env.example` – template for env variables
 - `service_account.json` – Google credentials (ignored in git)
 
+---
 
+## ▶️ How to Run
+```bash
+# 1. Setup virtual env
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+
+# 2. Join & build KPI
+python scripts/join_and_build_views_pdf.py --data_dir data --out_dir outputs
+
+# 3. Push to Google Sheets
+python scripts/push_to_sheet.py --out_dir outputs
