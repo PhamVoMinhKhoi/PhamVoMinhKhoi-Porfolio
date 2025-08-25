@@ -1,0 +1,9 @@
+# virtual env
+.venv/
+# python cache
+__pycache__/
+*.pyc
+# secrets & outputs
+.env
+service_account.json
+outputs/*.csv
