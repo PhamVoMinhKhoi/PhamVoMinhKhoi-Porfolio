@@ -77,3 +77,12 @@ The project aims to:
 ---
 
 ## 📂 Project Structure
+
+scripts/
+join_and_build_views_pdf.py # join 7 CSV → fact + KPI views
+push_to_sheet.py # push outputs/*.csv → Google Sheets
+data/ # raw CSV (not committed)
+outputs/ # ETL results (ignored in git)
+.env # contains GOOGLE_SHEET_KEY (ignored in git)
+.env.example # template for env variables
+service_account.json # Google credentials (ignored in git)
