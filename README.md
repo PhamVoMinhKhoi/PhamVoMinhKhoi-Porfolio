@@ -26,16 +26,6 @@ This repository was created to showcase my analytical and technical skills (Exce
 **Membership & Customer Page**: Revealed 90%+ revenue dependency on one membership segment and universal SLA failure across tiers.<br>
 Insights provide actionable recommendations on reducing cancellations, balancing capacity, SLA tiering, and customer diversification.<br>
 
-### [Supply-Chain-Dashboard](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/Supply-Chain-Dashboard)<br>
-
-**Description**: The main goal of this project is to analyze a global supply chain dataset (DataCoSupplyChainDataset.csv) containing order, customer, product, and financial data. The project covers the full workflow: data cleaning & EDA in Python, SQL views in BigQuery, interactive dashboards in Looker Studio, and predictive modeling with scikit-learn.<br>
-**Code**: Python Modeling Notebook<br>
-**Dashboard**: [Looker Studio Dashboard](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/blob/main/Supply-Chain-Dashboard/Supply_Chain_Performance_Dashboard.pdf)<br>
-**Original dataset**: [DataCoSupplyChainDataset.csv](https://www.kaggle.com/datasets/discovertalent143/supply-chain-dataset)<br>
-**Skills**: analytical thinking, data cleaning, data analysis, data visualization, dashboarding, machine learning<br>
-**Hard skills**: Python (Pandas, NumPy, scikit-learn, Matplotlib, Seaborn), Google BigQuery (SQL), Looker Studio, GitHub<br>
-**Results**: Delivered actionable insights on customer segments, discount impact, and delivery performance. Built a predictive model for late delivery risk achieving ~0.80 ROC-AUC, with key drivers identified (shipment schedule days, shipping mode, region, discount rate).<br>
-
 ## Study Projects
 ## Certificates
 * [MOS - Microsoft Office Specialist](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/Certification/MOS) - Microsoft - 2023
