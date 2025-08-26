@@ -26,7 +26,7 @@ This repository was created to showcase my analytical and technical skills (Exce
 **Membership & Customer Page**: Revealed 90%+ revenue dependency on one membership segment and universal SLA failure across tiers.<br>
 Insights provide actionable recommendations on reducing cancellations, balancing capacity, SLA tiering, and customer diversification.<br>
 
-### [Pooling Prediction Pipeline] 
+### [Pooling Prediction Pipeline](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/Model_Predict_Orders)
 **Description:** The project’s goal is to build a predictive pipeline for logistics pooling using Random Forest Classification and Bin-wise XGB Regression. The workflow covers the full ML cycle: feature engineering, preprocessing, classification, regression, evaluation, and insights generation for operational optimization.<br>
 **Code:** Python ML Scripts (RandomForest + XGB, preprocessing, evaluation)<br>
 **Dataset:** Custom logistics dataset (Orders, Service, Region, Distance, Fees, Pooling times)<br>
