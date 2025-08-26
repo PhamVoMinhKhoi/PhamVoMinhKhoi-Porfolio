@@ -28,8 +28,8 @@ Insights provide actionable recommendations on reducing cancellations, balancing
 
 ### [Pooling Prediction Pipeline](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/Model_Predict_Orders)
 **Description:** The project’s goal is to build a predictive pipeline for logistics pooling using Random Forest Classification and Bin-wise XGB Regression. The workflow covers the full ML cycle: feature engineering, preprocessing, classification, regression, evaluation, and insights generation for operational optimization.<br>
-**Code:** Python ML Scripts (RandomForest + XGB, preprocessing, evaluation)<br>
-**Dataset:** Custom logistics dataset (Orders, Service, Region, Distance, Fees, Pooling times)<br>
+**Code:** [Python ML Scripts (RandomForest + XGB, preprocessing, evaluation)](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/blob/main/Model_Predict_Orders/Pooling_Pipeline_Model.ipynb)<br>
+**Dataset:** [Custom logistics dataset (Orders, Service, Region, Distance, Fees, Pooling times)](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/blob/main/Model_Predict_Orders/data_v9.csv)<br>
 **Skills:** Machine learning pipeline design, feature engineering, data visualization, operational analytics<br>
 **Hard skills:** Python (Pandas, scikit-learn, XGBoost), feature engineering, preprocessing (OHE, StandardScaler), data visualization (Matplotlib, Seaborn)<br>
 **Results:** Built a 2-step pipeline:<br>
