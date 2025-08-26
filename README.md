@@ -25,6 +25,21 @@ This repository was created to showcase my analytical and technical skills (Exce
 **SLA Monitoring Page**: Identified severe SLA compliance issues (late vs on-time), weekday delivery imbalances.<br>
 **Membership & Customer Page**: Revealed 90%+ revenue dependency on one membership segment and universal SLA failure across tiers.<br>
 Insights provide actionable recommendations on reducing cancellations, balancing capacity, SLA tiering, and customer diversification.<br>
+###[Pooling Prediction Pipeline] 
+**Description:** The project’s goal is to build a predictive pipeline for logistics pooling using Random Forest Classification and Bin-wise XGB Regression. The workflow covers the full ML cycle: feature engineering, preprocessing, classification, regression, evaluation, and insights generation for operational optimization.<br>
+**Code:** Python ML Scripts (RandomForest + XGB, preprocessing, evaluation)<br>
+**Dataset:** Custom logistics dataset (Orders, Service, Region, Distance, Fees, Pooling times)<br>
+**Skills:** Machine learning pipeline design, feature engineering, data visualization, operational analytics<br>
+**Hard skills:** Python (Pandas, scikit-learn, XGBoost), feature engineering, preprocessing (OHE, StandardScaler), data visualization (Matplotlib, Seaborn)<br>
+**Results:** Built a 2-step pipeline:<br>
+**Classification:** Predicted order labels (INTERNAL, POOL, CANCELLED).<br>
+**Regression:** Predicted first pooling times within 15-min bins to reduce outliers.<br>
+Delivered realistic outputs reflecting business logic and imbalance handling.<br>
+**Classification Page:** Showed probability of orders being INTERNAL vs CANCELLED, improving resource allocation.<br>
+**Pooling Time Page:** Identified groups of orders with fast (0–15 mins) vs slow (>60 mins) pooling.<br>
+**Insights:** Revealed common characteristics of slow vs fast pooling orders, including distance, demand, COD, service type, and region.<br>
+Insights provide actionable recommendations on anticipating cancellations, rebalancing pooling configuration, and improving driver acceptance rates.<br>
+
 
 ## Study Projects
 ## Certificates
