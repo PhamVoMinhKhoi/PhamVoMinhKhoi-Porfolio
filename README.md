@@ -41,8 +41,6 @@ Delivered realistic outputs reflecting business logic and imbalance handling.<br
  **Insights:** Revealed common characteristics of slow vs fast pooling orders, including distance, demand, COD, service type, and region.<br>
 Insights provide actionable recommendations on anticipating cancellations, rebalancing pooling configuration, and improving driver acceptance rates.<br>
 
-
-## Study Projects
 ## Certificates
 * [MOS - Microsoft Office Specialist](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/Certification/MOS) - Microsoft - 2023
 * [Google Data Analytics Certificate](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/blob/main/Certification/Google%20Data%20Analytics.pdf) - Coursera - Google, 2024
