@@ -1,0 +1,2 @@
+rows_after_cleaning,members,casuals,date_min,date_max,percent_missing_by_col_top
+371041,262085,108956,2025-03-31 23:17,2025-04-30 23:59,"{'end_station_name': 0.198, 'end_station_id': 0.198, 'start_station_name': 0.192, 'start_station_id': 0.192, 'distance_km': 0.0, 'end_lat': 0.0, 'end_lng': 0.0, 'ended_at': 0.0, 'ride_id': 0.0, 'rideable_type': 0.0}"
