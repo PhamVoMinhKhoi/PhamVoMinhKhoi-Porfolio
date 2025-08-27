@@ -41,6 +41,27 @@ Delivered realistic outputs reflecting business logic and imbalance handling.<br
  **Insights:** Revealed common characteristics of slow vs fast pooling orders, including distance, demand, COD, service type, and region.<br>
 Insights provide actionable recommendations on anticipating cancellations, rebalancing pooling configuration, and improving driver acceptance rates.<br>
 
+### [Cyclistic Bike-Share Case Study](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/Case%20Study%201%3A%20How%20does%20a%20bike-share%20navigate%20speedy%20success%3F)<br>
+**Description:** The project analyzes Cyclistic/Divvy bike-share trip data (April 2025) to understand how **annual members** and **casual riders** use the service differently. Following the Google Data Analytics Capstone framework, the pipeline covers data cleaning and feature engineering in Python, exploratory analysis, KPI computation, visualization with matplotlib, and a Markdown-based report for business insights.  <br>
+**Dataset:**  [Divvy trip data](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/blob/main/Case%20Study%201%3A%20How%20does%20a%20bike-share%20navigate%20speedy%20success%3F/202504-divvy-tripdata.zip)<br>
+**Code:** [Python Analysis Scripts](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/blob/main/Case%20Study%201%3A%20How%20does%20a%20bike-share%20navigate%20speedy%20success%3F/Case_Study_Script.ipynb)  <br>
+**Report:** [Case Study Report (Markdown)](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/blob/main/Case%20Study%201%3A%20How%20does%20a%20bike-share%20navigate%20speedy%20success%3F/cyclistic_outputs/cyclistic_case_study_report.md)  <br>
+**Skills:** Data cleaning, feature engineering, exploratory analysis, data visualization, business insight generation  <br>
+**Hard skills:** Python (pandas, numpy, matplotlib), Haversine distance calculation, Markdown reporting, analytical storytelling  <br>
+**Results:** Delivered a complete end-to-end pipeline (CSV → Python analysis → visualizations → Markdown report).  <br>
+- **Overview:** Provided trip counts, ride duration, distance, missing value diagnostics.  <br>
+- **Usage Analysis:** Compared members vs casuals by weekday vs weekend, time of day, rideable type, and ride length.  <br>
+- **Station Analysis:** Identified top 10 start stations for each rider type.  <br>
+**Findings:**  <br>
+- Members ride more during weekdays, showing commute-like peaks (rush hours).  <br>
+- Casuals ride longer, mostly during weekends and afternoons → leisure-oriented usage.  <br>
+- Casuals use more e-bikes/scooters; members prefer classic bikes.  <br>
+- Top stations differ: commuter hubs for members, attraction/waterfront areas for casuals.  <br>
+**Recommendations:**  <br>
+1. Launch **Weekend Explorer Pass → Annual Membership funnel**.  <br>
+2. Create **Commute Guarantee program** (price cap, dock availability).  <br>
+3. Offer **E-bike trial memberships** to convert casual riders.  <br>
+
 ## Certificates
 * [MOS - Microsoft Office Specialist](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/Certification/MOS) - Microsoft - 2023
 * [Google Data Analytics Certificate](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/blob/main/Certification/Google%20Data%20Analytics.pdf) - Coursera - Google, 2024
