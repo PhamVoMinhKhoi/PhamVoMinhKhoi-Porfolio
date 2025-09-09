@@ -1,0 +1,22 @@
+-- Suggested DAX Measures (copy into Power BI)
+
+Users := DISTINCTCOUNT(customers[customer_id])
+DAU := DISTINCTCOUNT(app_events[customer_id])
+MAU := CALCULATE( DISTINCTCOUNT(app_events[customer_id]), DATESINPERIOD(date_dim[date], MAX(date_dim[date]), -30, DAY) )
+
+GTV := SUMX( FILTER(transactions, transactions[status] = "COMPLETED"), transactions[amount] )
+Fee := SUMX( FILTER(transactions, transactions[status] = "COMPLETED"), transactions[fee] )
+ARPU := DIVIDE( [GTV], DISTINCTCOUNT(customers[customer_id]) )
+
+Signed Up := COUNTROWS(customers)
+KYC Submitted := COUNTROWS( FILTER(customers, NOT ISBLANK(customers[kyc_submit_date]) ) )
+KYC Approved := COUNTROWS( FILTER(customers, NOT ISBLANK(customers[kyc_approved_date]) ) )
+Activated := COUNTROWS( FILTER(customers, NOT ISBLANK(customers[activate_date]) ) )
+Card Activated := COUNTROWS( FILTER(customers, NOT ISBLANK(customers[card_activate_date]) ) )
+Signup → KYC % := DIVIDE( [KYC Submitted], [Signed Up] )
+KYC → Activate % := DIVIDE( [Activated], [KYC Approved] )
+Activate → Card % := DIVIDE( [Card Activated], [Activated] )
+
+GTV MA28 := AVERAGEX( DATESINPERIOD(date_dim[date], MAX(date_dim[date]), -28, DAY), [GTV] )
+GTV SD28 := STDEVX.P( DATESINPERIOD(date_dim[date], MAX(date_dim[date]), -28, DAY), [GTV] )
+GTV Z-Score := DIVIDE( [GTV] - [GTV MA28], [GTV SD28] )
