@@ -1,4 +1,4 @@
-# Timo Consumer BI Analytics — Case Study (Power BI)
+# Consumer BI Analytics — Case Study (Power BI)
 
 > Bộ phân tích cho **Data Analyst**: KPI kinh doanh, Funnel (Signup→Card), hiệu quả theo Channel, Feature Adoption (30D), Cohort/Retention. Dùng **Power BI** với dữ liệu CSV sẵn có.
 
