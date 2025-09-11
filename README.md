@@ -62,14 +62,13 @@ Insights provide actionable recommendations on anticipating cancellations, rebal
 2. Create **Commute Guarantee program** (price cap, dock availability).  <br>
 3. Offer **E-bike trial memberships** to convert casual riders.  <br>
 
-# Consumer BI Analytics — Case Study (Power BI)
+### [Consumer BI Analytics — Case Study (Power BI)](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/tree/main/Consumer%20BI%20Analytics%20%E2%80%94%20Case%20Study%20(Power%20BI))
 
 **Description:** Analyze consumer behavior using transaction and app event data. Covered EDA, funnel & retention analysis, and churn prediction with Python + Power BI.  
-**Code/Notebooks:** [EDA, Funnel & Retention, Churn Model]  
-**Dashboard:** Power BI Report (Funnel, Retention, Churn Insights)  
+**Dashboard:** [Power BI Report (Funnel, Retention, Churn Insights)](https://github.com/PhamVoMinhKhoi/PhamVoMinhKhoi-Porfolio/blob/main/Consumer%20BI%20Analytics%20%E2%80%94%20Case%20Study%20(Power%20BI)/Fintech%20Dash.pbix)
 **Original dataset:** Synthetic consumer dataset (Transactions, Customers, App Events)  
 **Skills:** Data modeling, visualization, retention & churn analysis  
-**Hard skills:** Python (Pandas, NumPy, Scikit-learn), SQL, Power BI, GitHub  
+**Hard skills:** SQL, Power BI, DAX
 **Results:**  
 - Funnel: drop-off rates along purchase journey  
 - Retention: cohort analysis by month/quarter  
